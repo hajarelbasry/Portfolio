@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>portfoliohajar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="#D6A16B">
+  <header>
+    <a href="hhh" class="logo">port<span>Folio</span> </a>
+    <nav class="navigation ">
+      <a href="#home">Home</a>
+      <a href="#about me">About me </a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="princ" id="home">
+    <div>
+      <h2>Hello, my name is  <br><span>Hajar EL BASRY</span></h2>
+      <h3>engineering student</h3>
+      <div class="butt">
+        <a href="https://www.canva.com/design/DAFDB0QicqM/iTaSB1qkpTdJGwdcCAWAWQ/edit?utm_content=DAFDB0QicqM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="princbtn2"><b>Check my CV </b></a>
+        <a href="#contact" class="princbtn"><b>contact me</b></a>
+      </div>
+    </div>
+  </section>
+  <section class="About" id="about me">
+    <div class="main">
+      <div class="abouttext">
+        <h2>About Me </h2><br>
+        <h4> Wanna kn<span>ow me!? </span></h4>
+        <p><b>i'm hajar ELBASRY engineering student at ENSA Safi, I'm 19 years old and i live in safi . <br>
+        I have many hobbies like : reading, travel...<br><br>
+        I am a committed, motivated and serious person. I master 3 languages (Arabic French and English) ,
+        around my technical skills, I use some  programming language:Matlab-Phyton- C-Html-Css.. 
+        and  I also  master word +PowerPoint + excel. <br>
+        I  have a team spirit and a good sense of responsibility. </b></p>
+        <div class="socialicones">
+         <a href="https://www.linkedin.com/mwlite/in/hajar-el-basry-73b074240"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="https://www.instagram.com/hajar_elbsry/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/hajarelbasry"><i class="fa-brands fa-github"></i></a>
+       </div>
+    </div>
+  </section>
+  <section class="education" id="education">
+    <h2 class="titre"> Education</h2>
+    <div class="contenu">
+      <div class="cadre">
+        <div class="icon">
+           <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="text">
+          <h3>2020/2021</h3>
+          <p>Baccalaureate in Physics and Chemistry French option with honors</p>
+        </div>  
+      </div>
+        
+     <div class="cadre">
+        <div class="icon">
+        <i class="fa-solid fa-book-open"></i>
+        </div>
+        <div class="text">
+          <h3>2021/2022</h3>
+          <p> Preparatory classes ENSA Safi </p>
+        </div>
+      </div>
+        
+      <div class="cadre">
+        <div class="icon">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="text">
+          <h3>2020/2022</h3>
+          <p> certif in Python:CISCO Networking Academy <br> C language :sololearn </p>
+        
+        </div>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+  <section class ="projects" id="projects">
+    <h2 class="titre">Projects</h2>
+    <div class="contenu">
+      <div class="cadreprojet">
+        <div class="imageprojet">
+          <img src="images/mama.JPG">
+        </div>
+        <div class="infoprojet">
+          <h1>Cuiz game </h1>
+          <p class="projectcateg">This is a Quiz Game Mini Project in C .it  was a simple test in general culture . In this project, the user is asked a series of questions and is offered a reward . </p>
+        </div>
+      </div>
+      <div class="cadreprojet">
+        <div class="imageprojet">
+          <img src="images/ena.jpg">
+        </div>
+        <div class="infoprojet">
+          <h1>WaterRing </h1>
+          <p class="projectcateg">The idea of our project is creating a device linked to the consumer's water system which will allow him continuous and instantaneous control of his consumption, as well as it will have other options such as the alert of a probable leak of water. </p>
+        
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    
+  </section>  
+  <section class ="contactme" id="contact">
+    <h2 class="titre">Contact Me</h2><br><br>
+    <form action="" class="contct" >
+      <div class="contactinput">
+        <div class="contactcontn">
+          <label for="" class="contctlabel">Name: </label>
+          <input type="text" class="cninput">
+          
+        </div>
+        <div class="contactcontn">
+          <label for="" class="contctlabel">Email : </label>
+          <input type="email" class="cninput">
+        
+        </div>
+      </div>
+      <div class="contactcontn">
+        <label for="" class="hajar">Messagese__ </label>
+        <textarea name="" id="" cols="0" rows="7" class="cninput"></textarea>
+      
+      </div>
+      <div>
+        <a href="" class ="button">
+          Send message
+        </a>
+      </div>
+    </form>
+  </section>
+  
+      
+    </div>
+    
+    
+    
+    
+ 
+</body>
+</html>
